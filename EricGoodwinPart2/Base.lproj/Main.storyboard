@@ -19,60 +19,62 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="center" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qeC-qH-oIn">
-                                <rect key="frame" x="15" y="229" width="345" height="225"/>
+                                <rect key="frame" x="15" y="79" width="345" height="222.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJy-uA-mvg">
-                                        <rect key="frame" x="134" y="0.0" width="77.5" height="20.5"/>
+                                        <rect key="frame" x="134" y="0.0" width="77.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK4-Yw-LjJ">
-                                        <rect key="frame" x="129" y="30.5" width="87" height="42"/>
+                                        <rect key="frame" x="129" y="40" width="87" height="30"/>
                                         <state key="normal" title="Filter Movies"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCU-Yk-xTM"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjQ-9s-Inv">
-                                        <rect key="frame" x="130.5" y="82.5" width="84" height="20.5"/>
+                                        <rect key="frame" x="130.5" y="80" width="84" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yearReleasedLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZC-tX-Nhh">
-                                        <rect key="frame" x="100.5" y="113" width="144.5" height="20.5"/>
+                                        <rect key="frame" x="100.5" y="110.5" width="144.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="genreLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-94-DPB">
-                                        <rect key="frame" x="130" y="143.5" width="85.5" height="20.5"/>
+                                        <rect key="frame" x="130" y="141" width="85.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="directorLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAg-Cw-IBg">
-                                        <rect key="frame" x="122" y="174" width="101.5" height="20.5"/>
+                                        <rect key="frame" x="122" y="171.5" width="101.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="studioLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zki-es-PnB">
-                                        <rect key="frame" x="128" y="204.5" width="89" height="20.5"/>
+                                        <rect key="frame" x="128" y="202" width="89" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="QK4-Yw-LjJ" firstAttribute="height" secondItem="xJy-uA-mvg" secondAttribute="height" id="6og-bH-DuS"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qeC-qH-oIn" secondAttribute="bottom" constant="213" id="Avq-Py-Gwc"/>
                             <constraint firstItem="qeC-qH-oIn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="mK3-08-KLQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qeC-qH-oIn" secondAttribute="trailing" constant="15" id="suh-sQ-nol"/>
-                            <constraint firstItem="qeC-qH-oIn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="165" id="yfA-wg-nPo"/>
+                            <constraint firstItem="qeC-qH-oIn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="yfA-wg-nPo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
