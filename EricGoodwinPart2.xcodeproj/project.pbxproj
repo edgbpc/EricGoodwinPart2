@@ -18,7 +18,6 @@
 		C3349EBC21B46FA9006337A1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBB21B46FA9006337A1 /* Movie.swift */; };
 		C3349EBE21B47F48006337A1 /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBD21B47F48006337A1 /* rootViewController.swift */; };
 		C3349EC021B48015006337A1 /* filterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBF21B48015006337A1 /* filterViewController.swift */; };
-		C3349EC221B491AF006337A1 /* filterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EC121B491AF006337A1 /* filterModel.swift */; };
 		C3349EC421B4B758006337A1 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EC321B4B758006337A1 /* resultsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 		C3349EBB21B46FA9006337A1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C3349EBD21B47F48006337A1 /* rootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		C3349EBF21B48015006337A1 /* filterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterViewController.swift; sourceTree = "<group>"; };
-		C3349EC121B491AF006337A1 /* filterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterModel.swift; sourceTree = "<group>"; };
 		C3349EC321B4B758006337A1 /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +117,6 @@
 				C3349EBB21B46FA9006337A1 /* Movie.swift */,
 				C3349EBD21B47F48006337A1 /* rootViewController.swift */,
 				C3349EBF21B48015006337A1 /* filterViewController.swift */,
-				C3349EC121B491AF006337A1 /* filterModel.swift */,
 				C3349EC321B4B758006337A1 /* resultsViewController.swift */,
 			);
 			path = EricGoodwinPart2;
@@ -275,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3349E9321B46B7B006337A1 /* EricGoodwinPart2.xcdatamodeld in Sources */,
-				C3349EC221B491AF006337A1 /* filterModel.swift in Sources */,
 				C3349E8D21B46B7B006337A1 /* ViewController.swift in Sources */,
 				C3349EC021B48015006337A1 /* filterViewController.swift in Sources */,
 				C3349E8B21B46B7B006337A1 /* AppDelegate.swift in Sources */,

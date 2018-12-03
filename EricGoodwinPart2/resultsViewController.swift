@@ -17,7 +17,6 @@ class resultsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
     }
 
 }
@@ -37,7 +36,6 @@ extension resultsViewController: UITableViewDataSource {
 extension resultsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         delegate?.receiveMovie(movie: filteredMovies[indexPath.row])
-        //        self.view.window!.rootViewController?.dismiss(animated: true, completion: nil)
         navigationController?.popToRootViewController(animated: true)
     }
 }

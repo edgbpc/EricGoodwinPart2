@@ -22,6 +22,11 @@ class rootViewController: UIViewController, MovieReceiverDelegate {
     
     
     override func viewDidLoad() {
+        nameLabel.text = ""
+        yearReleasedLabel.text = ""
+        genreLabel.text = ""
+        directorLabel.text = ""
+        studioLabel.text = ""
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

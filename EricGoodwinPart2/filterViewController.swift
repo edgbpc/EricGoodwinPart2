@@ -10,19 +10,15 @@ import UIKit
 
 class filterViewController: UIViewController {
 
-    var filtersModel = filterModel()
     var filteredMovies: [Movie] = []
     weak var delegate: MovieReceiverDelegate?
 
-    
-    
     
     @IBOutlet weak var filterTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //print(movies)
-        // Do any additional setup after loading the view.
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
