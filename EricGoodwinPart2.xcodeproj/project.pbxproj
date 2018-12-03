@@ -15,6 +15,11 @@
 		C3349E9821B46B7E006337A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3349E9621B46B7E006337A1 /* LaunchScreen.storyboard */; };
 		C3349EA321B46B7E006337A1 /* EricGoodwinPart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EA221B46B7E006337A1 /* EricGoodwinPart2Tests.swift */; };
 		C3349EAE21B46B7E006337A1 /* EricGoodwinPart2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EAD21B46B7E006337A1 /* EricGoodwinPart2UITests.swift */; };
+		C3349EBC21B46FA9006337A1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBB21B46FA9006337A1 /* Movie.swift */; };
+		C3349EBE21B47F48006337A1 /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBD21B47F48006337A1 /* rootViewController.swift */; };
+		C3349EC021B48015006337A1 /* filterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBF21B48015006337A1 /* filterViewController.swift */; };
+		C3349EC221B491AF006337A1 /* filterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EC121B491AF006337A1 /* filterModel.swift */; };
+		C3349EC421B4B758006337A1 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EC321B4B758006337A1 /* resultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		C3349EA921B46B7E006337A1 /* EricGoodwinPart2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EricGoodwinPart2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3349EAD21B46B7E006337A1 /* EricGoodwinPart2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EricGoodwinPart2UITests.swift; sourceTree = "<group>"; };
 		C3349EAF21B46B7E006337A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3349EBB21B46FA9006337A1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C3349EBD21B47F48006337A1 /* rootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
+		C3349EBF21B48015006337A1 /* filterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterViewController.swift; sourceTree = "<group>"; };
+		C3349EC121B491AF006337A1 /* filterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterModel.swift; sourceTree = "<group>"; };
+		C3349EC321B4B758006337A1 /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				C3349E9621B46B7E006337A1 /* LaunchScreen.storyboard */,
 				C3349E9921B46B7E006337A1 /* Info.plist */,
 				C3349E9121B46B7B006337A1 /* EricGoodwinPart2.xcdatamodeld */,
+				C3349EBB21B46FA9006337A1 /* Movie.swift */,
+				C3349EBD21B47F48006337A1 /* rootViewController.swift */,
+				C3349EBF21B48015006337A1 /* filterViewController.swift */,
+				C3349EC121B491AF006337A1 /* filterModel.swift */,
+				C3349EC321B4B758006337A1 /* resultsViewController.swift */,
 			);
 			path = EricGoodwinPart2;
 			sourceTree = "<group>";
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3349E9321B46B7B006337A1 /* EricGoodwinPart2.xcdatamodeld in Sources */,
+				C3349EC221B491AF006337A1 /* filterModel.swift in Sources */,
 				C3349E8D21B46B7B006337A1 /* ViewController.swift in Sources */,
+				C3349EC021B48015006337A1 /* filterViewController.swift in Sources */,
 				C3349E8B21B46B7B006337A1 /* AppDelegate.swift in Sources */,
+				C3349EBE21B47F48006337A1 /* rootViewController.swift in Sources */,
+				C3349EBC21B46FA9006337A1 /* Movie.swift in Sources */,
+				C3349EC421B4B758006337A1 /* resultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
