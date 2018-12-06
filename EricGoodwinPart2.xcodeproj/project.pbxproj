@@ -19,6 +19,7 @@
 		C3349EBE21B47F48006337A1 /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBD21B47F48006337A1 /* rootViewController.swift */; };
 		C3349EC021B48015006337A1 /* filterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EBF21B48015006337A1 /* filterViewController.swift */; };
 		C3349EC421B4B758006337A1 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3349EC321B4B758006337A1 /* resultsViewController.swift */; };
+		C3CB047221B9B3DB0005286E /* filterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB047121B9B3DB0005286E /* filterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C3349EBD21B47F48006337A1 /* rootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		C3349EBF21B48015006337A1 /* filterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterViewController.swift; sourceTree = "<group>"; };
 		C3349EC321B4B758006337A1 /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
+		C3CB047121B9B3DB0005286E /* filterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				C3349EBD21B47F48006337A1 /* rootViewController.swift */,
 				C3349EBF21B48015006337A1 /* filterViewController.swift */,
 				C3349EC321B4B758006337A1 /* resultsViewController.swift */,
+				C3CB047121B9B3DB0005286E /* filterModel.swift */,
 			);
 			path = EricGoodwinPart2;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				C3349E9321B46B7B006337A1 /* EricGoodwinPart2.xcdatamodeld in Sources */,
 				C3349E8D21B46B7B006337A1 /* ViewController.swift in Sources */,
 				C3349EC021B48015006337A1 /* filterViewController.swift in Sources */,
+				C3CB047221B9B3DB0005286E /* filterModel.swift in Sources */,
 				C3349E8B21B46B7B006337A1 /* AppDelegate.swift in Sources */,
 				C3349EBE21B47F48006337A1 /* rootViewController.swift in Sources */,
 				C3349EBC21B46FA9006337A1 /* Movie.swift in Sources */,

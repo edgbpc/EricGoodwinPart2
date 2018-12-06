@@ -50,6 +50,8 @@ class rootViewController: UIViewController, MovieReceiverDelegate {
     
 
     @IBAction func filterButtonPressed(_ sender: Any) {
+//        let filterVC: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "filterViewController")
+//        self.present(filterVC, animated: true, completion: nil)
         performSegue(withIdentifier: "goToFilter", sender: self)
     }
     

@@ -10,7 +10,7 @@ import UIKit
 
 class filterViewController: UIViewController {
 
-    var filteredMovies: [Movie] = []
+    var model = filterModel()
     weak var delegate: MovieReceiverDelegate?
 
     
@@ -25,23 +25,10 @@ class filterViewController: UIViewController {
         if segue.destination is resultsViewController
         {
             let vc = segue.destination as? resultsViewController
-            vc?.filteredMovies = filteredMovies
+            vc?.model.results = model.filteredMovies
             vc?.delegate = delegate
         }
     }
-    
-    func filterMovies(index filter: Int){
-        print(filter)
-        if filter < 5 {
-            filteredMovies = movies.filter { $0.boxOffice == FilterOption.allCases[filter]}
-        } else {
-            filteredMovies = movies.filter {$0.genre == FilterOption.allCases[filter]}
-        }
-        print(filteredMovies)
-    }
-
-    
-    
 }
 
 
@@ -60,7 +47,7 @@ extension filterViewController: UITableViewDataSource {
 
 extension filterViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        filterMovies(index: indexPath.row)
+        model.filterMovies(index: indexPath.row)
         performSegue(withIdentifier: "goToResults", sender: self)
     }
 }
